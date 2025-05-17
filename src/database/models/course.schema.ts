@@ -3,7 +3,8 @@ const Schema = mongoose.Schema
 
 const courseSchema = new Schema({
     courseName : String,
-     CoursePrice: {
+
+     coursePrice: {
         type : String
     },
     courseDuration : {
